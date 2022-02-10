@@ -79,17 +79,15 @@ function getPictures(){
 var xmlhttp = new XMLHttpRequest();
 
 xmlhttp.onreadystatechange = function() {
-  if (xmlhttp.readyState == XMLHttpRequest.DONE) {
-    if (xmlhttp.status == 200) {
-      var n = (xmlhttp.responseText.match(/png/g) || []).length;
+  if (this.readyState == 4 && this.status == 200) {
+      var n = (this.responseText.match(/png/g) || []).length;
 	  
-      for (var i = 1; i >= n; i++) {
+      for (var i = 1; i <= n; i++) {
         var img1 = document.createElement('img');
         img1.src = 'gallery/' + i + '.png';
         document.getElementById("gallery0").appendChild(img1);
-			
+	document.console.log("fuck");
       }
-    }
   }
 };
 
