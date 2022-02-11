@@ -23,7 +23,7 @@ function but4() {
 function but5() {
 	
 	if (document.getElementById("colorButton").innerHTML == "LIGHT MODE"){
-	document.body.style.backgroundColor = "white";
+	document.body.style.backgroundColor = "#F2DFD7";
 	document.getElementById("topBar").style.backgroundColor = "#C3BEF7";
 	document.getElementById("colorButton").innerHTML = "DARK MODE";
 	textColorer("black");
