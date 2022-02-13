@@ -28,10 +28,14 @@ possible sidebar
 	</div>
 </div>
 <body onload="getPictures()">
-<div class="divvs id="content">
+<div class="divvs" id="content">
 <div class="contentDiv" id="homePage">
-<p>home
-</p>
+<div class="innerContentDiv" id="home0">
+<!-- intro to dylan-->
+</div>
+<div class="innerContentDiv" id="home1">
+<!-- <img scr="dylanpic.jpg"> -->
+</div>
 </div>
 <div class="contentDiv" id="galleryPage">
 <div class="innerContentDiv" id ="gallery0">
@@ -39,12 +43,30 @@ possible sidebar
 </div>
 </div>
 <div class="contentDiv" id="aboutPage">
-<p> about: HIIIII i'm dillywillypickles of drkMattr fame. I've ben taking pictrues foreverer. BUY MY SHIT.
-</p>
+<div class="innerContentDiv" id ="about0">
+<!-- a picture of him-->
+</div>
+<div class="innerContentDiv" id ="about1">
+<!--dyills bio-->
+</div>
 </div>
 <div class="contentDiv" id="contactPage">
-<p>contact me by the post, simply place a message in a bottle and toss that shit.
-</p>
+	<div class="innerContactDiv" id ="contact0">
+	<form>
+	<label for="nameContact">Name: </label>
+	<input type="text" id="nameContact" name="nameContact"><br>
+	<label for="emailContact">Email: </label>
+	<input type="email" id="emailContact" name="emailContact"><br>
+	<label for="numberContact">Number: </label>
+	<input type="tel" id="numberContact" name="numberContact"><br>
+	</form>
+	<button onclick="contactSubmit()" class="buttons" id="submitButton">SUBMIT FORM</button>
+</div>
+<div class="innerContentDiv" id ="contact1">
+
+
+</div>
+
 </div>
 
 </div>

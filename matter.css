@@ -8,6 +8,10 @@ body {
 p {
 	color: white;
 }
+label {
+	color: white;
+	float: left;
+}
 .imgClass {
 	width: 500px;
 	height: 400px
@@ -43,7 +47,7 @@ p {
 }
 #quizDiv {
 	display: flex;
-	float: right;
+	justify-content: center;
 	width: 33%;
 	height: 100%;
 }

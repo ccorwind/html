@@ -53,6 +53,11 @@ function textColorer(colorOf){
 	for (i = 0; i < pel.length; i++) {
     pel[i].style.color = colorOf;
 	}
+	let tel = document.getElementsByTagName('label');
+	let e;
+	for (e = 0; e < tel.length; e++) {
+    tel[e].style.color = colorOf;
+	}
 }
 
 function butColorer(colorOf){
