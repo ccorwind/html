@@ -43,10 +43,10 @@ label {
 	display: flex;
 	justify-content: center;
 
-	
 }
 #quizDiv {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	width: 33%;
 	height: 100%;
