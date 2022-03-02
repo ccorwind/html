@@ -14,8 +14,8 @@ label {
 	float: left;
 }
 .imgClass {
-	width: 500px;
-	height: 400px
+	width: 50vw;
+	height: 50vh;
 }
 #topBar { 
 	height: 15%;
@@ -31,7 +31,7 @@ label {
 	padding: 0px;
 	background-color: black; 
 	display: flex;
-	border: 3px solid #2F195F;
+	border: 0.5vmin solid #2F195F;
 	border-radius: 5px;
 	border-style: outset;
 }
