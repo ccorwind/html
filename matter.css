@@ -7,6 +7,7 @@ body {
 }
 p {
 	color: white;
+	font-size: 1vw;
 }
 label {
 	color: white;
@@ -72,4 +73,8 @@ label {
 }
 #homePage {
 	display: inline-flex;
+}
+#about0{
+	display: flex;
+	flex-wrap: wrap;
 }
